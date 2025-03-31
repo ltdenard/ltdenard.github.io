@@ -3,86 +3,122 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ltdenard | Cyberpunk Developer</title>
+  <title>ltdenard | Hack the Planet</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Courier New', monospace;
-      background: radial-gradient(circle at top left, #0ff 0%, #008 100%);
-      color: #0f0;
       padding: 2rem;
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #000;
+      color: #33ff33;
     }
+
     header {
       text-align: center;
+      border-bottom: 1px solid #0f0;
+      padding-bottom: 1rem;
     }
+
     h1 {
       font-size: 3rem;
-      margin-bottom: 0.25rem;
+      margin: 0;
+      text-shadow: 0 0 10px #0f0;
     }
+
     h2 {
-      color: #0ff;
+      color: #00ffaa;
+      margin-top: 2rem;
+      border-bottom: 1px dashed #0f0;
+      padding-bottom: 0.5rem;
     }
+
     a {
-      color: #ffa500;
+      color: #ff6600;
       text-decoration: none;
     }
+
     a:hover {
-      text-decoration: underline;
+      text-shadow: 0 0 5px #ff6600;
     }
-    section {
-      margin-top: 2rem;
-    }
+
     .projects {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 1rem;
+      margin-top: 1rem;
     }
+
     .project-card {
       background-color: #111;
       border: 1px solid #0f0;
-      border-radius: 10px;
+      border-radius: 8px;
       padding: 1rem;
+      box-shadow: 0 0 10px #003300;
+    }
+
+    .ascii {
+      font-size: 0.8rem;
+      color: #006600;
+      text-align: center;
+      white-space: pre;
+      margin: 2rem 0 1rem 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      color: #005500;
+      font-size: 0.8rem;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>ltdenard</h1>
-    <h2>Programmer • Hacker • Tinkerer</h2>
-    <p>Linux enthusiast, 3D printing nerd, music lover, and builder of weird & awesome things.</p>
+    <p>Cybersecurity • Linux • 3D Printing • Code Wizardry</p>
   </header>
 
+  <div class="ascii">
+    [::]======================[::]
+       H4CK-7H3-P14N37 Systems   
+    [::]======================[::]
+  </div>
+
   <section>
-    <h2>🔧 Projects</h2>
+    <h2>🛠️ Projects & Orgs</h2>
     <div class="projects">
       <div class="project-card">
         <h3><a href="https://github.com/H4CK-7H3-P14N37">H4CK-7H3-P14N37</a></h3>
-        <p>Cybersecurity tools & tactics, community-powered hacking arsenal.</p>
+        <p>Offensive security tools and curated hacker kits. Think Kali++.</p>
       </div>
       <div class="project-card">
         <h3><a href="https://github.com/BaitNet">BaitNet</a></h3>
-        <p>A honeypot & network trap project designed to lure attackers and gather threat intel.</p>
+        <p>Advanced honeypots and threat intel traps. Catch 'em all, log it deep.</p>
       </div>
       <div class="project-card">
         <h3><a href="https://github.com/DistroSeed">DistroSeed</a></h3>
-        <p>Open-source Linux distro templates and scripts for seeding new OS ideas.</p>
+        <p>Seed your own Linux OS ideas. Build. Modify. Respin. Share.</p>
       </div>
       <div class="project-card">
         <h3><a href="https://github.com/ltdenard/BLE-DragonRadar">BLE Dragon Radar</a></h3>
-        <p>A Dragon Ball Z-themed Bluetooth scanner using Bleak + NeoPixels on an 8x8 grid.</p>
+        <p>Bluetooth + NeoPixels + DBZ = Scouter vibes in an 8x8 matrix.</p>
       </div>
     </div>
   </section>
 
   <section>
-    <h2>🌐 Connect</h2>
+    <h2>🌍 Network</h2>
     <p>
-      💻 GitHub: <a href="https://github.com/ltdenard">ltdenard</a><br/>
-      🧠 Orgs: 
-      <a href="https://github.com/H4CK-7H3-P14N37">H4CK-7H3-P14N37</a>,
-      <a href="https://github.com/BaitNet">BaitNet</a>,
+      GitHub: <a href="https://github.com/ltdenard">ltdenard</a><br/>
+      Orgs: 
+      <a href="https://github.com/H4CK-7H3-P14N37">H4CK-7H3-P14N37</a>, 
+      <a href="https://github.com/BaitNet">BaitNet</a>, 
       <a href="https://github.com/DistroSeed">DistroSeed</a>
     </p>
   </section>
+
+  <footer>
+    <p>🧠 Hack the signal. Forge the tools. Stay curious. - ltdenard</p>
+  </footer>
 </body>
 </html>
